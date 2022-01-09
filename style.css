@@ -1,0 +1,47 @@
+body{
+    background-color: dodgerblue;
+    background-image: url("blue orange.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+a {
+    color: yellowgreen;
+    text-decoration: none;
+    border-bottom: 2px solid yellowgreen;
+    padding-bottom: 6px;
+}
+a:hover{
+color: green;
+border-bottom-color: green;
+}
+.orange {
+    width: 500px;
+}
+.inpsire {
+   width: 300px;
+   background-color: white;
+   padding: 20px;
+   border: 2px solid dodgerblue;
+}
+
+.button {
+background-color: gold;
+padding: 10px;
+color: green;
+border: none;
+border-radius: 12px;
+}
+.button:hover {
+    background-color: lightcoral;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.p1 {
+    font-family: "Georgia", serif;
+  } 
