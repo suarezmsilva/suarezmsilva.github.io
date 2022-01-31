@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+#right_wheel, #left_wheel {
+animation: wheel 2s infinite linear;
+transform-origin: center;
+transform-box: fill-box;
+}
+
+#woman_on_bike {
+animation: bike 1s ease-in-out infinite alternate;
+transform-origin: bottom;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotateZ(0deg);   
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes bike {
+    from {
+transform: rotateX(0deg);
+    }
+    to {
+transform: rotateX(20deg);
+    }
+}
